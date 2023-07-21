@@ -4,7 +4,7 @@
 }
 
 .purple{
-    color: rgb(104, 31, 104)
+    color: rgb(245, 113, 245)
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
@@ -224,7 +224,7 @@ nav ul li a:hover{
     box-shadow: 2px 3px 10px 2px purple;
 }
 .email a{
-    color: purple;
+    color: rgb(245, 113, 245);
     text-decoration: none;
     padding: 8px;
 }
@@ -389,7 +389,7 @@ nav ul li a:hover{
 
     .email a{
         font-size: 1rem;
-        padding: 5px;
+        padding: 12px;
     }
 
     .profile{
