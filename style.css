@@ -317,6 +317,7 @@ nav ul li a:hover{
         height: auto;
         align-items: center;
         justify-content: center;
+        padding: 15px;
     }
     .firstLeft{
         height: auto;
@@ -329,6 +330,7 @@ nav ul li a:hover{
     }
     .firstPara,.secondPara{
         font-size: 1.5rem;
+        padding: 12px;
     }
 
     .introSection h1,.skillHeading{
@@ -360,6 +362,7 @@ nav ul li a:hover{
     }
     .left{
         font-size: 0.8rem;
+        padding: 5px;
     }
     .more{
         font-size: 1.1rem;
@@ -376,9 +379,32 @@ nav ul li a:hover{
     .contactSection h1,h2{
         font-size: 1.5rem;
     }
-}
 
-@media only screen and (max-width:370px){
+    .btn{
+        font-size: 0.8rem;
+    }
+    .foot{
+        font-size: 0.8rem;
+    }
+
+    .email a{
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .profile{
+        height: 100%;
+    }
+
+    .profile a{
+        font-size: 0.7rem;
+    }
+    .foot{
+        margin-top: 5px;
+    }
+}
+/* 
+@media only screen and (max-width:450px){
     .btn{
         font-size: 0.8rem;
     }
@@ -403,4 +429,4 @@ nav ul li a:hover{
     .foot{
         margin-top: 5px;
     }
-}
+} */
