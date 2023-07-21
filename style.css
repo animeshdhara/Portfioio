@@ -1,0 +1,406 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.purple{
+    color: rgb(104, 31, 104)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Poppins:ital@1&family=Seaweed+Script&display=swap');
+
+
+body{
+    background-color: rgb(8, 8, 46);
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #08084b;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 13px;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.left{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.firstSection{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    margin-top: 88px;
+    height: 60vh;
+}
+
+.leftSection{
+    /* background-color: red; */
+    width: 40%;
+    font-size: 3rem;
+    font-family: 'Seaweed Script', cursive;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+
+} 
+
+.main{
+    height: 78vh;
+}
+
+#element{
+    color: cyan;
+}
+
+.rightSection{
+    /* background-color: red; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.rightSection img{
+    width: 45%;
+    height: 50%;
+    border: 2px solid white;
+    border-radius: 100px;
+    margin-top: 80px;
+}
+
+.btn{
+    border: 2px solid white;
+    border-radius: 22px;
+    padding: 5px;
+    outline: none;
+    background-color: #7b7ba8;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    box-shadow: 0px 1px 4px 2px white;
+}
+.btn:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+#horizontalLine{
+    border: 0;
+    height: 2px;
+    background-color:rgb(224, 134, 224);
+    margin: 75px 10vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introSection{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    margin-top: 100px;
+    padding: 10px;
+    width: 95%;
+}
+
+.introSection h1,.skillHeading{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 0px 1px 4px 2px white;
+    text-align: center;
+}
+
+.skillHeading{
+    margin-top: 80px;
+}
+
+.more{
+    font-size: 2rem;
+    font-family: 'Seaweed Script', cursive;
+    color: white;
+    /* border: 2px solid white; */
+    text-align: center;
+}
+
+
+.firstPara, .secondPara{
+    font-size: 2rem;
+    font-family: 'Seaweed Script', cursive;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.skillSection{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.skills img{
+    width: 100px;
+    height: 100px;
+}
+
+.contactBody{
+    background-color: rgb(3 3 89);
+}
+
+#navbar{
+    background-color: #060641;
+}
+
+.contactSection{
+    margin-top: 100px;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border: 2px solid purple;
+    border-radius: 75px;
+    margin-top: 25px;
+    box-shadow: 2px 3px 10px 2px purple;
+}
+.email a{
+    color: purple;
+    text-decoration: none;
+    padding: 8px;
+}
+.email a:hover{
+    color: gray;
+    cursor: pointer;
+}
+.email img{
+    width: 25%;
+    height: 36%;
+}
+.contactSection h1, h2{
+    border: 2px solid white;
+    /* margin: auto; */
+    text-align: center;
+    border-radius: 12px;
+    padding: 2px;
+    box-shadow: 2px 1px 1px 1px white;
+    /* margin-top: 50px; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.contactSection h2{
+    margin: auto;
+}
+
+.myProfiles{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.profiles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin-top: 80px; */
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 25%;
+    height: 80%;
+}
+
+.profile img{
+    width: inherit;
+    height: inherit;
+}
+
+.profile a{
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+.foot{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width:1210px) {
+    .leftSection{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .btn{
+        margin-left: 50px;
+
+    }
+    .leftSection{
+        width: auto;
+        margin-top: 0px;
+    }
+    .rightSection{
+        width: 25%;
+    }
+    .firstSection{
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .firstLeft{
+        height: auto;
+    }
+}
+
+@media  only screen and (max-width:960px){
+    .profiles{
+        margin-top: 70px;
+    }
+    .firstPara,.secondPara{
+        font-size: 1.5rem;
+    }
+
+    .introSection h1,.skillHeading{
+        font-size: 2rem;
+    }
+
+    .more{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .leftSection{
+        font-size: 1.5rem;
+    }
+
+    .email{
+        font-size: 1.5rem;
+    }
+
+    .rightSection img{
+        width: 70%;
+    };
+}
+
+@media only screen and (max-width:460px) {
+    nav ul li{
+        font-size: 0.7rem;
+    }
+    .left{
+        font-size: 0.8rem;
+    }
+    .more{
+        font-size: 1.1rem;
+    }
+
+    .profile a{
+        font-size: 1rem;
+    } 
+
+    .rightSection img{
+        width: 100%;
+    }
+
+    .contactSection h1,h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:370px){
+    .btn{
+        font-size: 0.8rem;
+    }
+    .foot{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .email a{
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .profile{
+        height: 100%;
+    }
+
+    .profile a{
+        font-size: 0.7rem;
+    }
+    .foot{
+        margin-top: 5px;
+    }
+}

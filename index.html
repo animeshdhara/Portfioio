@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animesh - Developper portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Animesh's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="firstSection">
+            <div class="leftSection">
+                <div class="firstLeft">
+
+                    Hi, my name is <span class="purple">Animesh Dhara</span>
+                    <div>and I am a passionate</div>
+                    <span id="element"></span>
+                </div>
+
+                <div class="secondLeft">
+                    <a href='https://docs.google.com/document/d/1Rs87pNvYiT5oPYREIc44O97xNymOmCJUzVshn2dsirY/edit?usp=drivesdk' >
+                        <button class="btn">
+                            Download CV
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="Photo1.jpg" alt="Photo loading....">
+            </div>
+        </section>
+        <hr id="horizontalLine">
+    </main>
+    <footer class="foot">Copyright &copy Animesh's portfolio : All rights reserved.</footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Programmer enthusiast','Web developper'],
+      typeSpeed: 40,
+    });
+  </script>
+</body>
+</html>
